@@ -1,12 +1,12 @@
 package com.thiagopaz.todolist.task;
 
-import java.time.LocalDate;
+
 import java.time.LocalDateTime;
 import java.util.UUID;
 
 import org.hibernate.annotations.CreationTimestamp;
 
-import jakarta.annotation.Generated;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -25,7 +25,7 @@ public class TaskModel {
 
     @Column (length = 50)
     private String title;
-    private LocalDateTime startdAt;
+    private LocalDateTime startedAt;
     private LocalDateTime endAt;
     private String priority;
 
